@@ -35,7 +35,7 @@ results = []
 results.append(alfred.Item(title=u"Search apps with keyword \"%s\"" % "".join(searchTerm),
                            subtitle=u"Search AppStore",
                            attributes= {'uid':alfred.uid(0),
-                                        'arg':u"itms://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=%s"% searchTerm },
+                                        'arg':u"itms://itunes.apple.com/WebObjects/MZStore.woa/wa/search?mt=8&term=%s"% searchTerm[0] },
                            icon=u"icon.png"
                            ))
 
@@ -54,7 +54,7 @@ for (idx,e) in enumerate(itertools.islice(resultData, MAX_RESULT)):
     except KeyError:
         averageUserRating = u"no data"
         
-    subtitle = "%s, Price: %s, Rating : %s" % (e['artistName'], e['formattedPrice'], averageUserRating)
+    subtitle = "%s • Price: %s • Rating: %s" % (e['artistName'], e['formattedPrice'], averageUserRating)
     results.append(alfred.Item(title=e['trackName'],subtitle=subtitle,
                                attributes={'arg':appStoreUrl%e['trackId']},
                                icon=imageurl))
