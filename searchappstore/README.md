@@ -2,7 +2,7 @@
 
 Search AppStore
 
-![Demo screenshot](https://raw.github.com/jmjeong/alfred-extension/master/searchappstore/screenshot.png)
+![Demo screenshot](screenshot.png)
 
 ###  Usage
 
