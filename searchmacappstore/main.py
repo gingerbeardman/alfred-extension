@@ -54,7 +54,7 @@ for (idx,e) in enumerate(itertools.islice(resultData, MAX_RESULT)):
     except KeyError:
         averageUserRating = u"no data"
         
-    subtitle = "%s, Price: %s, Rating : %s" % (e['artistName'], e['formattedPrice'], averageUserRating)
+    subtitle = "%s • Price: %s • Rating: %s" % (e['artistName'], e['formattedPrice'], averageUserRating)
     results.append(alfred.Item(title=e['trackName'],subtitle=subtitle,
                                attributes={'arg':macAppStoreUrl%e['trackId']},
                                icon=imageurl))
