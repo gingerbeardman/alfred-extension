@@ -35,7 +35,7 @@ results = []
 results.append(alfred.Item(title=u"Search apps with keyword \"%s\"" % "".join(searchTerm),
                            subtitle=u"Search Mac AppStore",
                            attributes= {'uid':alfred.uid(0),
-                                        'arg':u"macappstore://ax.search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?q=%s"% searchTerm },
+                                        'arg':u"macappstores://search.itunes.apple.com/WebObjects/MZSearch.woa/wa/search?mt=12&ign-mscache=1&q=%s"% searchTerm },
                            icon=u"icon.png"
                            ))
 

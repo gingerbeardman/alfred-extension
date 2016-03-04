@@ -1,5 +1,1 @@
-{
-    "version": 1.2,
-    "download_uri": "https://raw.github.com/jmjeong/alfred-extension/master/searchmacappstore/SearchMacAppStore.alfredworkflow", 
-    "description": "UUID is now optional"
-}
+{"version":1.3,"download_uri":"https://raw.github.com/jmjeong/alfred-extension/master/searchmacappstore/SearchMacAppStore.alfredworkflow","description":"UUID is now optional"}
