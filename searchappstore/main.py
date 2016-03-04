@@ -33,7 +33,7 @@ resultData = json.loads(data)['results']
 results = []
 
 results.append(alfred.Item(title=u"Search apps with keyword \"%s\"" % "".join(searchTerm),
-                           subtitle=u"Search AppStore",
+                           subtitle=u"Search App Store",
                            attributes= {'uid':alfred.uid(0),
                                         'arg':u"itms://itunes.apple.com/WebObjects/MZStore.woa/wa/search?mt=8&term=%s"% searchTerm[0] },
                            icon=u"icon.png"

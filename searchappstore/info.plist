@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.jmjeong.alfredv2.appstore</string>
-	<key>category</key>
-	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>0A7F94DA-8824-4BEA-892C-25D9882A4143</key>
@@ -23,11 +21,11 @@
 	<key>createdby</key>
 	<string>Jaemok Jeong</string>
 	<key>description</key>
-	<string>Search AppStore</string>
+	<string>Search App Store</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Search AppStore</string>
+	<string>Search App Store</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -57,11 +55,11 @@
 				<key>keyword</key>
 				<string>app</string>
 				<key>queuedelaycustom</key>
-				<integer>1</integer>
+				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
 				<false/>
 				<key>queuedelaymode</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
@@ -69,7 +67,7 @@
 				<key>script</key>
 				<string>python main.py "{query}"</string>
 				<key>title</key>
-				<string>Search AppStore</string>
+				<string>Search App Store</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -84,7 +82,7 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>2016-02-04: updated</string>
 	<key>uidata</key>
 	<dict>
 		<key>0A7F94DA-8824-4BEA-892C-25D9882A4143</key>
